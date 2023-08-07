@@ -1,0 +1,19 @@
+.container {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.selectLabel {
+  font-weight: bold;
+}
+
+.select {
+  margin-left: 30px;
+  border: gray solid 2px;
+  width: 110px;
+  border-radius: 5px;
+  padding: 2.5px 5px;
+  color: black;
+}

@@ -1,0 +1,82 @@
+.container {
+  background: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5%;
+  height: 120px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  top: 0;
+}
+
+.phoneContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  flex: 1;
+  color: white;
+}
+
+.phoneButton {
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.phoneText {
+  display: flex;
+  flex-direction: column;
+}
+.phoneText p:first-child {
+  font-size: 0.9rem;
+}
+
+.phoneText p:last-child {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+.logoContainer {
+  flex: 3.6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.linksContainer {
+  display: flex;
+  gap: 45px;
+  color: white;
+  font-weight: bold;
+}
+
+.cartContainer {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.cartItems {
+  margin: 0;
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  width: 20px;
+  height: 20px;
+  color: red;
+  background-color: white;
+  padding: 5px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+}

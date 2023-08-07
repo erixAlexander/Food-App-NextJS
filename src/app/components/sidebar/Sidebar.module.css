@@ -1,0 +1,61 @@
+.container {
+  height: calc(100vh - 120px);
+  width: 35%;
+  min-width: 400px;
+  background: rgb(255, 255, 255);
+  position: fixed;
+  top: 120px;
+  right: 0;
+  z-index: 2;
+  border-left: rgb(206, 206, 206) 1px solid;
+}
+
+.closeIcon {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-evenly;
+  height: calc(100vh - 120px);
+  padding: 20px 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.body h1 {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  align-self: center;
+}
+.itemContainer {
+  width: 100%;
+  flex: 1;
+}
+.item,
+.itemTitle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  gap: 15px;
+}
+.body .itemTitle {
+  font-weight: bold;
+  justify-content: center;
+
+}
+
+.body button {
+  align-self: center;
+  font-weight: bold;
+  padding: 10px 20px;
+  background: red;
+  color: white;
+  border-radius: 5px;
+}

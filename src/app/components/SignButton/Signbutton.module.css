@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.container button {
+  color: red;
+  padding: 8px 14px;
+  background: white;
+  border-radius: 5px;
+}

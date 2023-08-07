@@ -1,0 +1,119 @@
+.container {
+  min-height: calc(100vh - 120px);
+  margin-top: 120px;
+  display: flex;
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgContainer {
+  position: relative;
+  width: 60%;
+  height: 60%;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: flex-start;
+  padding: 20px 0 50px;
+  gap: 10px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 24px;
+  color: #454545;
+}
+
+.price {
+  color: red;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.desc {
+  color: #454545;
+  width: 60%;
+}
+
+.sizes {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 45px;
+}
+
+.sizes p {
+  position: absolute;
+  top: -12px;
+  left: -20px;
+  padding: 5px;
+  background-color: rgb(35, 126, 118);
+  color: white;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.choose {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.sizeImg:hover {
+  color: rgb(35, 126, 118);
+  background: white;
+  font-weight: bold;
+}
+
+.extrasContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 10px;
+}
+
+.extrasTitle {
+  font-weight: bold;
+}
+
+.extras {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.btn {
+  color: white;
+  background: red;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.quantityContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.quantityLabel {
+  font-weight: bold;
+}
+
+.quantity {
+  border: gray solid 2px;
+  width: 50px;
+  border-radius: 5px;
+  padding: 0 5px;
+}

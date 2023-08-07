@@ -1,0 +1,30 @@
+.container {
+  height: 100vh;
+  background-color: red;
+  overflow: hidden;
+}
+
+.arrowContainer {
+  position: absolute;
+  width: 10%;
+  height: 20%;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.wrapper {
+  width: 300%;
+  height: 100%;
+  display: flex;
+  transition: all 1.5s ease-in-out;
+  margin-top: 120px;
+}
+
+.imgContainer {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
