@@ -34,9 +34,9 @@ const Sidebar = () => {
             <p style={{ flex: 1 }}>Quantity</p>
             <p>Total</p>
           </div>
-          {order.map((item) => {
+          {order.map((item, i) => {
             return (
-              <div className={styles.item}>
+              <div key={i} className={styles.item}>
                 <Image src={item.img} width={35} height={35} />
                 <p style={{ flex: 3 }}>{item.productName}</p>
                 <p style={{ flex: 1 }}>{item.quantity}</p>
